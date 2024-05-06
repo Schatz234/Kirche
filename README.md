@@ -10,5 +10,6 @@ Hier finden Sie die folgenden [360-Grad-Bilder](https://schatz234.github.io/Kirc
 
 *Anleitung: 
   1. Erstellen Sie sich kostenlos einen [Github-Account](https://docs.github.com/de/get-started/start-your-journey/creating-an-account-on-github).
-  2. In Ihrem Account erstellen Sie nun ein neues Repository und geben diesem einen Namen entsprechend Ihres Themas.
-  3. Sie können nun über 
+  3. In Ihrem Account erstellen Sie nun ein neues Repository und geben diesem einen Namen entsprechend Ihres Themas.
+  4. Sie können nun über "Quick-Setup -> uploading an excisting file" bereits vorhandene Daten hochladen.
+  5. Für das anzeigen von 360-Grad-Bildern und 3 Modelle mit Aframe benötigen sie in Ihrem Repository einen Ordner den passenden Java-Script-Codes für Aframe. Diese können sie hier aus dem js-Ordner downloaden und in Ihr Repository hochladen.  
