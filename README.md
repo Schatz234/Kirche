@@ -12,7 +12,7 @@ Anleitung:
   1. Erstellen Sie sich kostenlos einen [Github-Account](https://docs.github.com/de/get-started/start-your-journey/creating-an-account-on-github).
   3. In Ihrem Account erstellen Sie nun ein neues Repository und geben diesem einen Namen entsprechend Ihres Themas.
   4. Sie können nun über "Quick-Setup -> uploading an existing file" bereits vorhandene Daten hochladen.
-  5. Für das Anzeigen von 360-Grad-Bildern und 3 Modelle mit Aframe benötigen sie in Ihrem Repository einen Ordner  mit den passenden Java-Script-Codes für Aframe. Diese können sie hier aus dem js-Ordner downloaden und in Ihr Repository hochladen. Dafür gehen Sie auf den Namen Ihres Respository und eine Zeile darunter auf das "+ -> upload file". Nun ziehen Sie den Ordner mit den Dateien in das Uploadfeld.
+  5. Für das Anzeigen von 360-Grad-Bildern und 3-D-Modelle mit Aframe benötigen sie in Ihrem Repository einen Ordner  mit den passenden Java-Script-Codes für Aframe. Diese können sie hier aus dem js-Ordner downloaden und in Ihr Repository hochladen. Dafür gehen Sie auf den Namen Ihres Respository und eine Zeile darunter auf das "+ -> upload file". Nun ziehen Sie den Ordner mit den Dateien in das Uploadfeld.
   7.  Falls Sie nun 3-Modelle über aus dem [JASON3D4Aframe-Editor](https://niebert.github.io/JSON3D4Aframe/) einfügen möchten, springen Sie bitte zu Punkt 13. 
   8.  Für das Einfügen von 360-Bildern benötigen Sie nun Ihr 360-Bild als .jpg-Dati und den passenden Quelltext, den Sie hier bspw. aus der kirchelinks.html kopieren können.
   9.  Als erstes laden Sie Sie Ihr Bild in Ihrem Repository wie zuvor die Java-Codes hoch. Es empfiehlt sich auch hier die Dateien in einen eigenen Ordner (hier: img) zu packen.
