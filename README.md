@@ -10,4 +10,5 @@ Hier finden Sie die folgenden [360-Grad-Bilder](https://schatz234.github.io/Kirc
 
 *Anleitung: 
   1. Erstellen Sie sich kostenlos einen [Github-Account](https://docs.github.com/de/get-started/start-your-journey/creating-an-account-on-github).
-  2. In Ihrem Account erstellen Sie nun ein neues Projekt unter 
+  2. In Ihrem Account erstellen Sie nun ein neues Repository und geben diesem einen Namen entsprechend Ihres Themas.
+  3. Sie können nun über 
