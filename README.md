@@ -1,5 +1,5 @@
 ## 360-Grad Bilder in Aframe
-Hier finden Sie die folgenden [360-Grad-Bilder](https://schatz234.github.io/Kirche/index.html) und 3-D-Modelle der Kirche St. Maria in Landau in der Pflalz sowie eine Anleitung zum erstellen eines solchen Projekts.
+Hier finden Sie die folgenden [360-Grad-Bilder](https://schatz234.github.io/Kirche/index.html) und 3-D-Modelle der Kirche St. Maria in Landau in der Pfalz sowie eine Anleitung zum Erstellen eines solchen Projekts.
 * [Kirche (Frontansicht)](https://schatz234.github.io/Kirche/kirchefront.html) 
 * [Kirche (linke Seite)](https://schatz234.github.io/Kirche/kirchelinks.html)
 * [Kirche (Rückansicht)](https://schatz234.github.io/Kirche/kirchehinten.html)
