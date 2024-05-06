@@ -1,0 +1,167 @@
+<!doctype HTML>
+<html>
+    <head>
+      <meta name="createdwith" content="https://niebert.githhub.io/JSON3D4Aframe">
+        <!--
+      <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+      <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/build/aframe-ar.js"> </script>
+      -->
+      <script src="./js/aframe-v1.0.4.js"></script>
+      <script src="./js/aframe-ar.js"></script>
+    <title>
+            AR hiro Marker - Landau - St. Maria 
+      </title>
+    </head>
+    <body style='margin : 0px; overflow: hidden;'>
+      <a-scene>
+          <a-marker id="mymarker" preset="hiro">
+
+<!-- Comment for BOX: Linker Turmsockel 1 -->
+<a-box id="1683876520769" position="0.00 0.00 0.00" material="color: #4545aa;opacity:1" rotation="0 0 0"  width="0.60" height="1.20" depth="0.60" ></a-box>
+
+<!-- Comment for BOX: Linker Turmsockel 2 -->
+<a-box id="1702536838139" position="0.00 1.20 0.00" material="color: #08080c;opacity:1" rotation="0 0 0"  width="0.60" height="1.20" depth="0.60" ></a-box>
+
+<!-- Comment for BOX: Linker Turmsockel 3 -->
+<a-box id="1702537068634" position="0.00 2.07 0.00" material="color: #45b05a;opacity:1" rotation="0 0 0"  width="0.57" height="0.57" depth="0.57" ></a-box>
+
+<!-- Comment for BOX: Linker Turmsockel 4 -->
+<a-box id="1702537411249" position="0.00 2.61 0.00" material="color: #9eaa46;opacity:1" rotation="0 0 0"  width="0.54" height="0.54" depth="0.54" ></a-box>
+
+<!-- Comment for TRIANGLE: Linker Turm Dach  -->
+<a-triangle id="1702537968712T1" position="0.00 3.33 0.00" material="color: #4545aa;opacity:0.5" rotation="0 0 0"  vertex-a="-0.28 -0.45 0.28" vertex-b="0.28 -0.45 0.28" vertex-c="0.00 0.45 0.00" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Linker Turm Dach  -->
+<a-triangle id="1702537968712T2" position="0.00 3.33 0.00" material="color: #4545aa;opacity:0.5" rotation="0 0 0"  vertex-a="0.00 0.45 0.00" vertex-b="0.28 -0.45 0.28" vertex-c="0.28 -0.45 -0.28" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Linker Turm Dach  -->
+<a-triangle id="1702537968712T3" position="0.00 3.33 0.00" material="color: #4545aa;opacity:0.5" rotation="0 0 0"  vertex-a="0.00 0.45 0.00" vertex-b="0.28 -0.45 -0.28" vertex-c="-0.28 -0.45 -0.28" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Linker Turm Dach  -->
+<a-triangle id="1702537968712T4" position="0.00 3.33 0.00" material="color: #4545aa;opacity:0.5" rotation="0 0 0"  vertex-a="0.00 0.45 0.00" vertex-b="-0.28 -0.45 -0.28" vertex-c="-0.28 -0.45 0.28" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Linker Turm Dach  -->
+<a-triangle id="1702537968712T5" position="0.00 3.33 0.00" material="color: #4545aa;opacity:0.5" rotation="0 0 0"  vertex-a="0.28 -0.45 0.28" vertex-b="-0.28 -0.45 0.28" vertex-c="-0.28 -0.45 -0.28" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Linker Turm Dach  -->
+<a-triangle id="1702537968712T6" position="0.00 3.33 0.00" material="color: #4545aa;opacity:0.5" rotation="0 0 0"  vertex-a="0.28 -0.45 -0.28" vertex-b="0.28 -0.45 0.28" vertex-c="-0.28 -0.45 -0.28" ></a-triangle>
+
+<!-- Comment for BOX: Mittlerer Sockel 1 -->
+<a-box id="1702538280211" position="0.84 0.00 0.00" material="color: #d58400;opacity:0.5" rotation="0 0 0"  width="1.05" height="1.20" depth="0.60" ></a-box>
+
+<!-- Comment for BOX: Mittlerer Sockel 2  -->
+<a-box id="1702538476326" position="0.84 1.20 0.00" material="color: #669c35;opacity:0.7" rotation="0 0 0"  width="1.05" height="1.20" depth="0.60" ></a-box>
+
+<!-- Comment for TRIANGLE: Mittlereres Sockeldach -->
+<a-triangle id="1702538864375T1" position="0.84 1.95 0.00" material="color: #24c5e5;opacity:0.5" rotation="0 0 0"  vertex-a="-0.30 -0.15 0.30" vertex-b="0.30 -0.15 0.30" vertex-c="0.00 0.15 0.30" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Mittlereres Sockeldach -->
+<a-triangle id="1702538864375T2R1" position="0.84 1.95 0.00" material="color: #24c5e5;opacity:0.5" rotation="0 0 0"  vertex-a="0.00 0.15 -0.30" vertex-b="0.30 -0.15 0.30" vertex-c="0.30 -0.15 -0.30" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Mittlereres Sockeldach -->
+<a-triangle id="1702538864375T2R1" position="0.84 1.95 0.00" material="color: #24c5e5;opacity:0.5" rotation="0 0 0"  vertex-a="0.00 0.15 -0.30" vertex-b="0.00 0.15 0.30" vertex-c="0.30 -0.15 0.30" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Mittlereres Sockeldach -->
+<a-triangle id="1702538864375T3" position="0.84 1.95 0.00" material="color: #24c5e5;opacity:0.5" rotation="0 0 0"  vertex-a="0.00 0.15 -0.30" vertex-b="0.30 -0.15 -0.30" vertex-c="-0.30 -0.15 -0.30" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Mittlereres Sockeldach -->
+<a-triangle id="1702538864375T4L1" position="0.84 1.95 0.00" material="color: #24c5e5;opacity:0.5" rotation="0 0 0"  vertex-a="0.00 0.15 0.30" vertex-b="-0.30 -0.15 -0.30" vertex-c="-0.30 -0.15 0.30" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Mittlereres Sockeldach -->
+<a-triangle id="1702538864375T4L2" position="0.84 1.95 0.00" material="color: #24c5e5;opacity:0.5" rotation="0 0 0"  vertex-a="0.00 0.15 0.30" vertex-b="0.00 0.15 -0.30" vertex-c="-0.30 -0.15 -0.30" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Mittlereres Sockeldach -->
+<a-triangle id="1702538864375T5B" position="0.84 1.95 0.00" material="color: #24c5e5;opacity:0.5" rotation="0 0 0"  vertex-a="0.30 -0.15 0.30" vertex-b="-0.30 -0.15 0.30" vertex-c="-0.30 -0.15 -0.30" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Mittlereres Sockeldach -->
+<a-triangle id="1702538864375T6B" position="0.84 1.95 0.00" material="color: #24c5e5;opacity:0.5" rotation="0 0 0"  vertex-a="0.30 -0.15 -0.30" vertex-b="0.30 -0.15 0.30" vertex-c="-0.30 -0.15 -0.30" ></a-triangle>
+
+<!-- Comment for BOX: Rechter Turmsockel 1 -->
+<a-box id="1702539137923" position="1.68 0.00 0.00" material="color: #4545aa;opacity:1" rotation="0 0 0"  width="0.60" height="1.20" depth="0.60" ></a-box>
+
+<!-- Comment for BOX: Rechter Turmsockel 2  -->
+<a-box id="1702539234805" position="1.68 1.20 0.00" material="color: #0d0d17;opacity:1" rotation="0 0 0"  width="0.60" height="1.20" depth="0.60" ></a-box>
+
+<!-- Comment for BOX: Rechter Turmsockel 3  -->
+<a-box id="1702539309987" position="1.68 2.07 0.00" material="color: #4dc765;opacity:1" rotation="0 0 0"  width="0.57" height="0.57" depth="0.57" ></a-box>
+
+<!-- Comment for BOX: Rechter Turmsockel 4 -->
+<a-box id="1702539390405" position="1.68 2.58 0.00" material="color: #b7b941;opacity:1" rotation="0 0 0"  width="0.54" height="0.54" depth="0.54" ></a-box>
+
+<!-- Comment for TRIANGLE: Rechtes Turmdach  -->
+<a-triangle id="1702539506672T1" position="1.68 3.30 0.00" material="color: #4545aa;opacity:0.5" rotation="0 0 0"  vertex-a="-0.28 -0.45 0.28" vertex-b="0.28 -0.45 0.28" vertex-c="0.00 0.45 0.00" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Rechtes Turmdach  -->
+<a-triangle id="1702539506672T2" position="1.68 3.30 0.00" material="color: #4545aa;opacity:0.5" rotation="0 0 0"  vertex-a="0.00 0.45 0.00" vertex-b="0.28 -0.45 0.28" vertex-c="0.28 -0.45 -0.28" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Rechtes Turmdach  -->
+<a-triangle id="1702539506672T3" position="1.68 3.30 0.00" material="color: #4545aa;opacity:0.5" rotation="0 0 0"  vertex-a="0.00 0.45 0.00" vertex-b="0.28 -0.45 -0.28" vertex-c="-0.28 -0.45 -0.28" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Rechtes Turmdach  -->
+<a-triangle id="1702539506672T4" position="1.68 3.30 0.00" material="color: #4545aa;opacity:0.5" rotation="0 0 0"  vertex-a="0.00 0.45 0.00" vertex-b="-0.28 -0.45 -0.28" vertex-c="-0.28 -0.45 0.28" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Rechtes Turmdach  -->
+<a-triangle id="1702539506672T5" position="1.68 3.30 0.00" material="color: #4545aa;opacity:0.5" rotation="0 0 0"  vertex-a="0.28 -0.45 0.28" vertex-b="-0.28 -0.45 0.28" vertex-c="-0.28 -0.45 -0.28" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Rechtes Turmdach  -->
+<a-triangle id="1702539506672T6" position="1.68 3.30 0.00" material="color: #4545aa;opacity:0.5" rotation="0 0 0"  vertex-a="0.28 -0.45 -0.28" vertex-b="0.28 -0.45 0.28" vertex-c="-0.28 -0.45 -0.28" ></a-triangle>
+
+<!-- Comment for BOX: Mittelschiff Sockel  -->
+<a-box id="1702539814109" position="0.84 0.30 -2.40" material="color: #d714d0;opacity:1" rotation="0 0 0"  width="1.65" height="1.80" depth="4.20" ></a-box>
+
+<!-- Comment for TRIANGLE: Mittelschiff Dach -->
+<a-triangle id="1702540332478T1" position="0.84 1.65 -2.40" material="color: #3c3cec;opacity:0.6" rotation="0 0 0"  vertex-a="-0.82 -0.45 2.10" vertex-b="0.82 -0.45 2.10" vertex-c="0.00 0.45 2.10" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Mittelschiff Dach -->
+<a-triangle id="1702540332478T2R1" position="0.84 1.65 -2.40" material="color: #3c3cec;opacity:0.6" rotation="0 0 0"  vertex-a="0.00 0.45 -2.10" vertex-b="0.82 -0.45 2.10" vertex-c="0.82 -0.45 -2.10" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Mittelschiff Dach -->
+<a-triangle id="1702540332478T2R1" position="0.84 1.65 -2.40" material="color: #3c3cec;opacity:0.6" rotation="0 0 0"  vertex-a="0.00 0.45 -2.10" vertex-b="0.00 0.45 2.10" vertex-c="0.82 -0.45 2.10" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Mittelschiff Dach -->
+<a-triangle id="1702540332478T3" position="0.84 1.65 -2.40" material="color: #3c3cec;opacity:0.6" rotation="0 0 0"  vertex-a="0.00 0.45 -2.10" vertex-b="0.82 -0.45 -2.10" vertex-c="-0.82 -0.45 -2.10" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Mittelschiff Dach -->
+<a-triangle id="1702540332478T4L1" position="0.84 1.65 -2.40" material="color: #3c3cec;opacity:0.6" rotation="0 0 0"  vertex-a="0.00 0.45 2.10" vertex-b="-0.82 -0.45 -2.10" vertex-c="-0.82 -0.45 2.10" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Mittelschiff Dach -->
+<a-triangle id="1702540332478T4L2" position="0.84 1.65 -2.40" material="color: #3c3cec;opacity:0.6" rotation="0 0 0"  vertex-a="0.00 0.45 2.10" vertex-b="0.00 0.45 -2.10" vertex-c="-0.82 -0.45 -2.10" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Mittelschiff Dach -->
+<a-triangle id="1702540332478T5B" position="0.84 1.65 -2.40" material="color: #3c3cec;opacity:0.6" rotation="0 0 0"  vertex-a="0.82 -0.45 2.10" vertex-b="-0.82 -0.45 2.10" vertex-c="-0.82 -0.45 -2.10" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Mittelschiff Dach -->
+<a-triangle id="1702540332478T6B" position="0.84 1.65 -2.40" material="color: #3c3cec;opacity:0.6" rotation="0 0 0"  vertex-a="0.82 -0.45 -2.10" vertex-b="0.82 -0.45 2.10" vertex-c="-0.82 -0.45 -2.10" ></a-triangle>
+
+<!-- Comment for BOX: Querschiff Sockel -->
+<a-box id="1702541275779" position="0.84 0.30 -3.30" material="color: #eb8dec;opacity:1" rotation="0 0 0"  width="2.25" height="1.80" depth="1.65" ></a-box>
+
+<!-- Comment for TRIANGLE: Querschiff Dach  -->
+<a-triangle id="1702541689831T1" position="0.84 1.65 -3.30" material="color: #0101ef;opacity:0.6" rotation="0 90 0"  vertex-a="-0.82 -0.45 1.13" vertex-b="0.82 -0.45 1.13" vertex-c="0.00 0.45 1.13" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Querschiff Dach  -->
+<a-triangle id="1702541689831T2R1" position="0.84 1.65 -3.30" material="color: #0101ef;opacity:0.6" rotation="0 90 0"  vertex-a="0.00 0.45 -1.13" vertex-b="0.82 -0.45 1.13" vertex-c="0.82 -0.45 -1.13" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Querschiff Dach  -->
+<a-triangle id="1702541689831T2R1" position="0.84 1.65 -3.30" material="color: #0101ef;opacity:0.6" rotation="0 90 0"  vertex-a="0.00 0.45 -1.13" vertex-b="0.00 0.45 1.13" vertex-c="0.82 -0.45 1.13" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Querschiff Dach  -->
+<a-triangle id="1702541689831T3" position="0.84 1.65 -3.30" material="color: #0101ef;opacity:0.6" rotation="0 90 0"  vertex-a="0.00 0.45 -1.13" vertex-b="0.82 -0.45 -1.13" vertex-c="-0.82 -0.45 -1.13" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Querschiff Dach  -->
+<a-triangle id="1702541689831T4L1" position="0.84 1.65 -3.30" material="color: #0101ef;opacity:0.6" rotation="0 90 0"  vertex-a="0.00 0.45 1.13" vertex-b="-0.82 -0.45 -1.13" vertex-c="-0.82 -0.45 1.13" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Querschiff Dach  -->
+<a-triangle id="1702541689831T4L2" position="0.84 1.65 -3.30" material="color: #0101ef;opacity:0.6" rotation="0 90 0"  vertex-a="0.00 0.45 1.13" vertex-b="0.00 0.45 -1.13" vertex-c="-0.82 -0.45 -1.13" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Querschiff Dach  -->
+<a-triangle id="1702541689831T5B" position="0.84 1.65 -3.30" material="color: #0101ef;opacity:0.6" rotation="0 90 0"  vertex-a="0.82 -0.45 1.13" vertex-b="-0.82 -0.45 1.13" vertex-c="-0.82 -0.45 -1.13" ></a-triangle>
+
+<!-- Comment for TRIANGLE: Querschiff Dach  -->
+<a-triangle id="1702541689831T6B" position="0.84 1.65 -3.30" material="color: #0101ef;opacity:0.6" rotation="0 90 0"  vertex-a="0.82 -0.45 -1.13" vertex-b="0.82 -0.45 1.13" vertex-c="-0.82 -0.45 -1.13" ></a-triangle>
+
+          </a-marker>
+          <a-entity camera ></a-entity>
+      </a-scene>
+    </body>
+</html>
